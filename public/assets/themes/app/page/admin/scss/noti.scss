@@ -1,0 +1,72 @@
+#label_noti {
+    width: 12%; 
+    letter-spacing: 0; 
+    font-size: 16px; 
+    margin-top: auto; 
+    margin-bottom: auto !important; 
+    font-weight: normal; 
+    color: #000; 
+    width: 64px
+}
+
+#title_noti {
+    border: 0; 
+    border-radius: 15px !important; 
+    margin-left: 3px; 
+    padding: 0.4rem 0.75rem !important; 
+    width: 85%;
+}
+
+@media (min-width: 1600px) {
+    #label_noti {
+        width: 10%;
+    }
+
+    #title_noti {
+        width: 90%;
+    }
+}
+
+#btnView {
+    font-weight: 500; 
+    max-height: 48px; 
+    max-width: 100%; 
+    position: absolute; 
+    right: 0;
+}
+
+#content_noti {
+    border: 0; 
+    border-radius: 15px; 
+    resize: none;
+}
+
+.block-input {
+    margin-top: auto; 
+    margin-bottom: auto; 
+    display: flex;
+}
+
+.block-btn-input {
+    position: relative; 
+    min-height: 48px !important;
+}
+
+.noti-content{
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table thead.bg-info > tr > th {
+    border-bottom-width: 1px !important;
+}
+
+.table thead.bg-info > tr > th div{
+    font-weight: 500 !important;
+}
+
+#table_noti_wrapper.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > thead > tr > th > div.dataTables_sizing {
+    padding: 0 !important;
+}
