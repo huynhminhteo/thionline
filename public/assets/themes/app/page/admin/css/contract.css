@@ -1,0 +1,148 @@
+.block-number-contracts .badge {
+  padding: 0.6em 1em;
+  font-size: 0.857em; }
+
+.block-number-contracts .badge-secondary {
+  background-color: #8899a9; }
+
+.block-number-contracts .badge-light {
+  background-color: #fff; }
+
+.block-number-contracts .detail-number-contract {
+  color: #202020;
+  white-space: normal;
+  line-height: 1.5; }
+
+.block-number-contracts .detail-number-contract .number-contract {
+  color: #163b5c; }
+
+.block-number-contracts .detail-number-contract .icon_slash {
+  color: #909090; }
+
+.btn-cus-hm {
+  height: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 9.5px 0px !important; }
+
+.table-hover tbody tr:hover {
+  background-color: #e2effb !important; }
+
+#btnUse,
+#btnUse:focus {
+  background: #3d6b65;
+  background: linear-gradient(58deg, #3d6b65 0%, #14385c 100%); }
+
+#btnUse {
+  min-width: 130px !important;
+  letter-spacing: 3px !important; }
+
+#btnRegist {
+  padding: 10.5px 20px !important;
+  letter-spacing: normal !important; }
+
+.input-group > .form-control:not(:last-child), .dataTables_filter .input-group > input:not(:last-child), .input-group > .custom-select:not(:last-child) {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important; }
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  background-color: #f8f8f8;
+  color: #757575; }
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) i {
+  transform: rotate(90deg); }
+
+.block-date-contract {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+table.dataTable.table-contract-status-medical {
+  border-bottom: 0; }
+
+.table-contract-status-medical .btn-cus-hm,
+.table-contract-status-medical .btn-cus-hm.btn-light:not(:disabled):not(.disabled):hover,
+.table-contract-status-medical .btn-cus-hm.btn-light:not(:disabled):not(.disabled):focus {
+  background-color: #f8f8f8 !important;
+  -webkit-box-shadow: -1px 5px 0px -1px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: -1px 5px 0px -1px rgba(0, 0, 0, 0.11);
+  box-shadow: -1px 5px 0px -1px rgba(0, 0, 0, 0.11); }
+
+table.dataTable.table-contract-status-medical thead th {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.table-contract-status-medical tr td,
+.table-contract-status-medical thead th {
+  vertical-align: middle; }
+
+.table-contract-status-medical tr td:first-child {
+  background-color: #f8f8f8;
+  border-left: 0; }
+
+.table-contract-status-medical tr td:last-child {
+  border-right: 0; }
+
+label .tx-note {
+  font-size: 12px; }
+
+#filter_bar_contract .row .row [class*='col-'] {
+  padding-right: 5px;
+  padding-left: 5px; }
+
+@media (max-width: 1100px) {
+  #filter_bar_contract .row .row [class*='col-'] {
+    padding-right: 0px;
+    padding-left: 5px; } }
+
+@media (min-width: 992px) {
+  #filter_bar_contract .row [class*='col-'] {
+    padding-right: 15px;
+    padding-left: 15px; }
+  #filter_bar_contract .row > [class*='col-']:first-child {
+    padding-left: 0; }
+  #filter_bar_contract .row > [class*='col-']:last-child {
+    padding-right: 0; } }
+
+@media (max-width: 991px) {
+  #filter_bar_contract > .row > [class*='col-']:first-child {
+    padding-right: 0; }
+  #filter_bar_contract > .row > [class*='col-']:last-child {
+    padding-left: 0; }
+  #filter_bar_contract .row .row {
+    margin-left: -5px;
+    margin-right: -5px; } }
+
+@media (max-width: 767px) {
+  #filter_bar_contract > .row > [class*='col-'] {
+    padding-left: 0;
+    padding-right: 0; } }
+
+.dataTables_wrapper .dataTables_info {
+  padding-top: 0.4em !important;
+  font-weight: bold;
+  font-size: 12px !important; }
+
+.btn.btn-search-plan {
+  font-size: 16px !important; }
+
+#table_contract_status_medical.table thead.bg-info > tr > th {
+  padding: 1.5rem 0.5rem !important; }
+
+#table_contract_status_medical.table.dataTable tbody td {
+  padding: 0.7rem 1.1rem 0.85rem 1.1rem !important; }
+
+@media (max-width: 768px) {
+  .modal-noti {
+    width: 90% !important;
+    max-width: 100%; } }
+
+#table_contract_medical tbody td {
+  padding: 0.5rem 0.7rem !important; }
+
+@media (min-width: 1200px) and (max-width: 1240px) {
+  #table_contract_medical tbody td {
+    padding: 0.5rem !important; } }

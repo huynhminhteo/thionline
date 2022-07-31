@@ -1,0 +1,23 @@
+.count-test {
+    width: 31%;
+    height: 25vh;
+    border: 2px dashed #fff;
+    margin: 2px;
+    text-align: center;
+    padding-top: 3.5vh;
+    color: #fff;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: initial;
+    transition: background-color 0.25s;
+    background: #ffffff29;
+}
+
+.row-random {
+    float: left;
+    width: 100%;
+}
+
+.on-random {
+    background-color: #0e3763;
+}
